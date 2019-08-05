@@ -1,0 +1,21 @@
+
+wHAT IS AN THREAD?
+Thread is an independent flow of Execution
+
+GIL{Global Interpreter Lock} - It ensures that python code will execute only one thread at any instant of time.
+
+Types of Multi-tasking in an OS
+Process based - Multiple threads running on same OS simultaneously
+Thread based - Single process consisting of seperate tasks
+
+
+- Mainthread creates the child thread
+- At any instant only one thread can be active until unless you are using multiprocessing
+- Main thread loses it control when child thread's start function is called
+- Main thread regains it control when child thread's join function is executed
+
+Advanteages of Multi-Threading
+- Enhanced Performance by decreased development time
+- simplified and streamlined program coding
+- simulta neous and parallelized occurence of tasks
+- Better use of CPU resources
